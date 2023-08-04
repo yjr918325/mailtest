@@ -7,7 +7,7 @@ app = Flask(__name__)
 #配置邮件：服务器／端口／传输层安全协议／邮箱名／密码
 app.config.update(
     DEBUG = True,
-    MAIL_SERVER='email.unionpay.com',
+    MAIL_SERVER='zj.unionpay.com',
     MAIL_PROT=465,
     MAIL_USE_TLS = True,
     MAIL_USERNAME = 'yangzhihao3@unionpay.com',
